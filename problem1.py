@@ -10,6 +10,7 @@ COMPLETED, answer = 233168
 """
 
 def multiple_sum(divisor: int, limit: int, found_divs: set) -> int:
+    """finds the sum of multiples"""
     ret_sum = 0
     for i in range(divisor, limit, divisor):
         if i in found_divs:
